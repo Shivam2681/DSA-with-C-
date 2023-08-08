@@ -22,29 +22,29 @@
 
 // int allocateBooks(vector<int> &pages, int n, int b)
 // {
-// 	if(b>n){
-// 		return -1;
-// 	}
-// 	int s = 0;
-// 	int sum = 0;
+	// if(b>n){
+	// 	return -1;
+	// }
+	// int s = 0;
+	// int sum = 0;
 
-// 	for(int i=0;i<n;i++){
-// 		sum += pages[i];
-// 	}
-// 	int e = sum;
-// 	int ans = -1;
+	// for(int i=0;i<n;i++){
+	// 	sum += pages[i];
+	// }
+	// int e = sum;
+	// int ans = -1;
 
-// 	int mid = s+(e-s)/2;
+	// int mid = s+(e-s)/2;
 
-// 	while(s<=e){
-// 		if(isPossiblesol(pages,n,b,mid)){
-// 			ans = mid;
-// 			e = mid-1;
-// 		}
-// 		else{
-// 			s = mid + 1;
-// 		}
-// 		mid = s+(e-s)/2;
-// 	}
-// 	return ans;
+	// while(s<=e){
+	// 	if(isPossiblesol(pages,n,b,mid)){
+	// 		ans = mid;
+	// 		e = mid-1;
+	// 	}
+	// 	else{
+	// 		s = mid + 1;
+	// 	}
+	// 	mid = s+(e-s)/2;
+	// }
+	// return ans;
 // }

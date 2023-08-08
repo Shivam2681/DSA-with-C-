@@ -31,7 +31,7 @@ int lastoccurence(vector<int>& arr,int n, int x){
     
 }
 int firstoccurence(vector<int>& arr,int n, int x){
-   int s = 0;
+    int s = 0;
     int e = n-1;
     int mid = s+(e-s)/2;
     int ans = -1;
